@@ -1,6 +1,6 @@
 name: tool_base_test
 description: A starting point for Dart libraries or applications.
-# version: 1.0.0
+version: 1.0.1
 # homepage: https://www.example.com
 # author: Maurice McCabe <mmcc007@gmail.com>
 
@@ -8,10 +8,11 @@ environment:
   sdk: '>=2.4.0 <3.0.0'
 
 dependencies:
-#  tool_base: ^1.9.5+3
+#  tool_base: ^1.9.6
   tool_base:
     git: https://github.com/tek08/tool_base.git
 #    path: ../tool_base
+#  reporting: ^1.0.1
   reporting:
     git: https://github.com/tek08/reporting.git
 #    path: ../reporting
